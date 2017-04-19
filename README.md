@@ -4,5 +4,6 @@ Juan  Jose Vargas Vargas
 -Este es el ejercicio numero 1
 
 ``
-ps -A | wc -l
+export val1=$(($(ps -A | wc -l)-1))|echo $val1
+
 ``
